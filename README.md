@@ -24,6 +24,10 @@ Każdy etap tworzenia aplikacji jest w oddzielnym branchu. Np.
 
 Serwer backendowy znajduje się w [tym](https://goo.gl/MfJeDG) repozytorum.
 
+## Prezentacja (PowerPoint)
+
+Prezentacja znajduje się w tym repozytorium, a konkretnie [tutaj](https://github.com/Humberd/DWI2017-frontend/blob/master/Dzien%20WI%202017%20-%20Maciej%20Sawicki%20prezentacja.pptx)
+
 ## Pytania i Pomoc
 
 W razie pytań lub pomocy kontaktować się można za pomocą:
