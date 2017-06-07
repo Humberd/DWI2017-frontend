@@ -23,3 +23,12 @@ Każdy etap tworzenia aplikacji jest w oddzielnym branchu. Np.
 ## Backend
 
 Serwer backendowy znajduje się w [tym](https://goo.gl/MfJeDG) repozytorum.
+
+## Pytania i Pomoc
+
+W razie pytań lub pomocy kontaktować się można za pomocą:
+
+ * email 1 (służbowy)- maciej.sawicki@acaisoft.com
+ * email 2 (prywatny)- humberd.dev@gmail.com
+ * issue w tym repozytorium
+
