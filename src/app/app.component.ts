@@ -19,6 +19,13 @@ export class AppComponent {
   }
 
   public addNewBook(): void {
+    const newBook = {
+      title: this.newBookTitle,
+      author: "Maciej Sawicki"
+    };
+    this.httpService.post("http://localhost:8080/api/v1/books", newBook)
+      .mergeMap(() => this.getBooks())
+      .subscribe()
   }
 
   public getBooks(): Observable<any> {
@@ -26,5 +33,4 @@ export class AppComponent {
       .map(response => response.json())
       .do(books => this.booksList = books)
   }
-
 }
