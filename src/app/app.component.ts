@@ -15,6 +15,11 @@ export class AppComponent {
     author: "Jan Brzechwa"
   }];
 
+  filterAuthor: string;
+
   constructor() {
+    setTimeout(() => {
+      this.filterAuthor = "Changed from setTimeout..."
+    }, 2000);
   }
 }
