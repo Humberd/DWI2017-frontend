@@ -6,11 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  myTitle: string = "Hello From Component!!!";
+  book = {
+    title: "Lokomotywa",
+    author: "Julian Tuwim"
+  };
 
   constructor() {
     setTimeout(() => {
-      this.myTitle = "I've changed in setTimeout..."
-    }, 2000)
+      this.book.title = "Murzynek Bambo"
+    }, 2000);
   }
 }
