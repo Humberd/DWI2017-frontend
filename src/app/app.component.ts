@@ -6,14 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  book = {
+
+  booksList = [{
     title: "Lokomotywa",
     author: "Julian Tuwim"
-  };
+  }, {
+    title: "Na Straganie",
+    author: "Jan Brzechwa"
+  }];
 
   constructor() {
-    setTimeout(() => {
-      this.book.title = "Murzynek Bambo"
-    }, 2000);
   }
 }
