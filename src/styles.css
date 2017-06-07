@@ -73,3 +73,9 @@ label {
   padding-right: 5px;
   border-radius: 3px;
 }
+
+.empty-message {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
