@@ -1,7 +1,9 @@
 <div class="dwi-header">
   <label>Currently {{booksList.length}}</label>
-  {{filterAuthor}}
-  <input type="text" [(ngModel)]="filterAuthor">
+  <input type="text"
+         placeholder="Book Title"
+         [(ngModel)]="newBookTitle">
+  <button (click)="addNewBook()">Add Book</button>
 </div>
 
 <div class="dwi-list">

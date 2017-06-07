@@ -15,11 +15,15 @@ export class AppComponent {
     author: "Jan Brzechwa"
   }];
 
-  filterAuthor: string;
+  newBookTitle: string;
 
   constructor() {
-    setTimeout(() => {
-      this.filterAuthor = "Changed from setTimeout..."
-    }, 2000);
+  }
+
+  public addNewBook(): void {
+    this.booksList.push({
+      title: this.newBookTitle,
+      author: "Maciej Sawicki"
+    });
   }
 }
