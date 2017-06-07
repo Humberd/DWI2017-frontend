@@ -33,4 +33,10 @@ export class AppComponent {
       .map(response => response.json())
       .do(books => this.booksList = books)
   }
+
+  public removeBook(bookId: string): void {
+    this.httpService.delete("http://localhost:8080/api/v1/books/"+bookId)
+      .mergeMap(() => this.getBooks())
+      .subscribe();
+  }
 }
