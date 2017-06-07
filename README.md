@@ -1,28 +1,25 @@
 # DWI2017Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
+Prosta aplikacja na Dzień Wydziału Informatyki 2017 prezentująca działanie Angular 4 i RxJS.
 
-## Development server
+## Instalacja (4 kroki)
+ 1. Zainstalowanie Node.js
+ 2. Zainstalowanie CLI => `npm install -g @angular/cli`
+ 3. Utworzenie projektu => `ng new MyFirstAngularApp`
+ 4. Uruchomienie projektu => `ng serve`
+ 
+## Uruchomienie
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Aby uruchomić należy wywołać tę komendę: `ng serve`
 
-## Code scaffolding
+## Etapy
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+Każdy etap tworzenia aplikacji jest w oddzielnym branchu. Np. 
 
-## Build
+ * W branchu o nazwie `2-VariableSync` pokazany jest stan aplikacji, kiedy sprawdzamy, czy widok faktycznie odzwierciedla stan aplikacji
+ * W branchu o nazwie `8-getHttpBooks` pokazany jest stan aplikacji, kiedy zaczynamy pobierać listę książek z serwera. 
+ * itp...
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Backend
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Serwer backendowy znajduje się w [tym](https://goo.gl/MfJeDG) repozytorum.
